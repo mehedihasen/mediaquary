@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(52, 52, 240);
+}
+.disply{
+    width: 1000px; 
+    margin: 0 auto;
+
+}
+.logoi,.end{
+    margin-top: 10px;
+    font-size: .90cm;
+}
+.nav{
+    text-decoration: none;
+    margin-top:20px ;
+    
+}
+.navi{
+    color: white;
+   
+    margin-left: 10px;
+
+
+}
+
+.pic img{
+    width: 50px;
+    margin-top:10px;
+    
+}
+h3{
+    padding-bottom: 10px;
+}
+a,p{
+    text-decoration: none;
+    padding-top: 10px;
+
+}
+h1{
+    padding: 15PX 10PX;
+    color: blue;
+}
+main{
+    margin: 0 auto;
+    width: 1000px;
+    background-color:white;
+}
+section{
+    padding-bottom: 50px;
+}
+.grid,.level,.cor,.hed{
+    display: grid;
+    grid-gap: 10px;
+}
+.level{
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid,.cor,.hed{
+    grid-template-columns: repeat(3, 1fr);
+}
+.img,.sec{
+    display: flex;
+    align-items: center;
+    
+}
+.grid img{
+    width: 100px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+hr{
+
+    margin: 0 auto;
+    width: 700px;
+    color: lightgrey;
+}
+.second{
+    width: 250px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+.tex p{
+    font-size: 20px;
+    color: grey;
+}
+.endp img{
+    width: 250px;
+    height: 100px;
+}
+.sml{
+    border: rgb(227, 234, 238) 2px solid;
+    background-color:white ;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+.color{
+    color: orange;
+    font-size: 0.80em;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+.uncolor{
+    color:gray;
+    font-size: 0.80em;
+}
+.hour{
+    background-color: rgb(233, 168, 168);
+    color:rgba(252, 6, 6, 0.863);
+    font-size: .90em;
+    padding: 5px 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+    float: right;
+}
+
+
+@media(max-width: 992px) {
+    .hed{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid{
+    
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .level{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .cor{
+         grid-template-columns: repeat(2, 1fr);
+    }
+   
+}
+.end{
+    width: 1000px;
+    margin: 0 auto;
+    display:flex;
+}
+
+@media (max-width: 668px) {
+    .grid{
+
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    .level{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .cor{
+        grid-template-columns: repeat(1, 1fr);
+   }
+   .hed{
+    grid-template-columns: repeat(1, 1fr);
+}
+}
+
+
